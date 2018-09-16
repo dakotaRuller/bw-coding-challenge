@@ -1,0 +1,166 @@
+body {
+  background-color: #172361;
+}
+
+/* misc */
+div.content-text {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Fonts */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #c9cdd9;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #9097b2;
+}
+.header {
+  padding: 40px;
+}
+.sub-top-header {
+  margin-bottom: 0;
+}
+.top-header {
+  font-size: 25px;
+}
+div.content-text h1{
+  color:#000;
+  font-size: 15px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+div.content-text p{
+  color: #939393;
+  font-size: 13px;
+}
+div.content-text hr{
+  color: #939393;
+  margin: 5px;
+}
+
+/* Nav Tab */
+.top-nav {
+  background-color: #fff;
+  padding: 5px;
+}
+.top-nav .col-sm-12 a {
+  margin-bottom: 0;
+  color: #a5a5a5;
+  padding: 5px;
+}
+.top-nav .col-sm-12 a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.tablinks {
+  margin-bottom: 25px;
+}
+.tablinks .col-xs-6 {
+  width: 50%;
+  height: 49px;
+}
+.tab {
+  color: #dddfe8;
+  padding-bottom: 20px;
+}
+.tab:hover {
+  cursor: pointer;
+}
+.active-tab {
+  color: #526df0;
+  border-bottom: 5px solid;
+}
+.active-tab small {
+  font-weight: bold;
+}
+
+/* Tabs */
+.content-info {
+  display: none;
+  margin-top: -25px;
+  background-color: #fff;
+}
+.content-tickets {
+
+}
+
+/* TICKETS */
+.ticket {
+  background-color: #fff;
+  margin: 0 0 15px 0;
+  padding: 20px;
+}
+.ticket h3 {
+  color: #2e2e2e;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.ticket p {
+  color: #a5a5a5;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+.ticket-redeemed {
+
+}
+.ticket-expired {
+
+}
+.info-col {
+  margin-right: 24%;
+}
+.exprired-info p {
+  color: #f03a57;
+}
+.bubble {
+  margin: 2%;
+  float: right;
+}
+.bubble-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-bubble {
+  background-color: #e2e2e2;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.selected-bubble {
+  background-color: #5ab300;
+}
+.redeemed-bubble {
+  background-color: #818181;
+  color: #fff;
+}
+.expired-bubble {
+  background-color: #d7263b;
+  color: #fff;
+}
+
+/* Checkout Button */
+.checkout {
+  position: sticky;
+  bottom:0;
+  background-color: #fff;
+}
+.btn-checkout {
+  color: #a5a5a5;
+  background-color: #fff;
+  border-color: #a5a5a5;
+  padding: 12px;
+  margin: 10px;
+  width: 65%;
+  border-radius: 2.5rem;
+  font-weight: 100;
+}
+.submit {
+  background-color: #71b027;
+  color: #e8f1db;
+}
