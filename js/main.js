@@ -46,9 +46,8 @@ displayItems();
 
 //setting the tickets functionality
 
-
-
-const thing = () => {
+//selection bubble functionality
+(() => {
   bubbles.forEach(bubble => {
         bubble.addEventListener('click', () => {
           if(bubble.classList.contains('selected-bubble')) {
@@ -62,9 +61,10 @@ const thing = () => {
       )
     }
   )
-};
+})();
 
-const toggleCheckout = () => {
+//checout button functionality
+(() => {
   bubbles.forEach(bubble => {
         bubble.addEventListener('click', () => {
           if(redemptionState.bubblesSelected >= 1) {
@@ -76,7 +76,4 @@ const toggleCheckout = () => {
       )
     }
   )
-}
-
-thing();
-toggleCheckout();
+})();
