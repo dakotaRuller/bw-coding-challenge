@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100">
   </head>
   <body>
     <div class="container-fluid">
@@ -22,14 +22,14 @@
         </div>
       </div>
       <div class="row tablinks">
-        <div class="col-xs-6">
-          <p class="tab text-center"><small>INFO</small></p>
+        <div class="col-xs-6" id="Info">
+          <p class="tab text-center active-tab"><small>INFO</small></p>
         </div>
-        <div class="col-xs-6">
-          <p class="tab active-tab text-center"><small>TICKETS</small></p>
+        <div class="col-xs-6" id="Tickets">
+          <p class="tab text-center"><small>TICKETS</small></p>
         </div>
       </div>
-      <div class="row content-info">
+      <div class="row content-info" id="ContentInfo">
         <div class="col-sm-12 content-text">
           <h1>HOURS OF OPERATION</h1>
           <hr>
@@ -41,7 +41,7 @@
           <p>&nbsp;</p>
         </div>
       </div>
-      <div class="row content-tickets">
+      <div class="row content-tickets" id="ContentTickets">
         <div class="col-sm-12">
           <div class="row ticket">
             <div class="col-xs-6 info-col">
@@ -49,7 +49,7 @@
               <p>Valid Until: Jan, 21 2018, 04:42 pm</p>
             </div>
             <div class="col-xs-6 bubble-col">
-              <button class="btn btn-bubble bubble"></button>
+              <button class="btn btn-bubble"></button>
             </div>
           </div>
           <div class="row ticket">
@@ -58,7 +58,7 @@
               <p>Valid Until: Jan, 21 2018, 04:42 pm</p>
             </div>
             <div class="col-xs-6 bubble-col">
-              <button class="btn btn-bubble bubble"></button>
+              <button class="btn btn-bubble"></button>
             </div>
           </div>
           <div class="row ticket">
@@ -67,7 +67,7 @@
               <p>Valid Until: Jan, 21 2018, 04:42 pm</p>
             </div>
             <div class="col-xs-6 bubble-col">
-              <button class="btn btn-bubble bubble"></button>
+              <button class="btn btn-bubble"></button>
             </div>
           </div>
           <div class="row ticket">
@@ -76,7 +76,7 @@
               <p>Valid Until: Jan, 21 2018, 04:42 pm</p>
             </div>
             <div class="col-xs-6 bubble-col">
-              <button class="btn btn-bubble bubble"></button>
+              <button class="btn btn-bubble"></button>
             </div>
           </div>
           <div class="row ticket">
@@ -85,7 +85,7 @@
               <p>Valid Until: Jan, 21 2018, 04:42 pm</p>
             </div>
             <div class="col-xs-6 bubble-col">
-              <button class="btn btn-bubble bubble redeemed-bubble"><i class="fas fa-check"></i></button>
+              <button class="btn btn-bubble redeemed-bubble"><i class="fas fa-check"></i></button>
             </div>
           </div>
           <div class="row ticket">
@@ -94,16 +94,17 @@
               <p>Valid Until: Jan, 21 2018, 04:42 pm</p>
             </div>
             <div class="col-xs-6 bubble-col">
-              <button class="btn btn-bubble bubble expired-bubble"><i class="fas fa-times"></i></button>
+              <button class="btn btn-bubble expired-bubble"><i class="fas fa-times"></i></button>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12 checkout text-center">
-          <button class="btn btn-checkout submit">CONFIRM REDEMPTIONS</button>
+      <div class="row checkout">
+        <div class="col-sm-12 text-center">
+          <button class="btn btn-checkout"  id="CheckoutBtn">CONFIRM REDEMPTIONS</button>
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
